@@ -1,0 +1,36 @@
+/* Macc.css */
+.hi {
+    margin-top: 100px;
+    text-align: center; /* Center the text */
+  }
+  
+  .hi h1 {
+    font-size: 50px;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .theme {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.89);
+  }
+  
+  .img11 {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin-top: 30px;
+  }
+  
+  .img11 img {
+    max-width: 75%; /* Ensure the image doesn't exceed its container width */
+    width: auto; /* Allow the image to adjust its width according to its aspect ratio */
+    height: auto;
+    border-radius: 30px; /* Allow the image to adjust its height according to its aspect ratio */
+  }
+  .custom{
+    text-align: center;
+    margin-top: 30px;
+    color: blueviolet;
+  }
+  

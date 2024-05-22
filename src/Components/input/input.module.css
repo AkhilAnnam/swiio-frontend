@@ -1,0 +1,64 @@
+/* input.module.css */
+
+.checkout_form_container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0; /* Light gray background */
+  color: black; /* Text color set to black */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout_form {
+  width: 100%;
+}
+
+.form_group {
+  margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px; /* Add some space between label and input */
+  color: #333; /* Dark gray text color for labels */
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border color when focused */
+}
+
+button {
+  padding: 14px 24px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue background for button */
+  color: #fff; /* White text color for button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Increased margin between inputs and button */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:active {
+  transform: translateY(1px);
+}

@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .artwork {
+    flex: 1;
+  }
+  
+  .artwork img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .artwork p {
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .art1 {
+    margin: 20px 0;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  .artwork {
+    margin-top: 200px;
+  }
+  
+  .artwork1 {
+    margin-top: 200px;
+  }
+  
+  .artwork1 p {
+    font-size: 60px;
+  }
+  
+  .artwork2 {
+    margin-top: 250px;
+  }
+  
+  .artwork2 p {
+    font-size: 60px;
+  }
+  
+  .artwork11 p {
+    font-size: 60px;
+  }
+  
+  .artwork11 {
+    margin-top: 200px;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 650px;
+    background: linear-gradient(to bottom left, #1c186c, #d696e1, #2727d6cb);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+    margin-left: 200px;
+    border-radius: 20px;
+  }
+  
+  .firstbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 20%;
+    background-color: rgba(133, 125, 125, 0.5);
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .secondbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 15%;
+    background-color: rgba(133, 125, 125, 0.5);
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  
+  .icon-box i {
+    font-size: 30px;
+    transition: transform 0.3s ease;
+    padding: 10px; /* Adding padding for border */
+  }
+  
+  .icon-box:hover i {
+    transform: scale(1.2);
+  }
+  
+  .icon-box p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  .highlighted i {
+    border: 2px solid lightblue;
+    color: lightblue;
+    border-radius: 0%; /* Making border rounded */
+  }
+  

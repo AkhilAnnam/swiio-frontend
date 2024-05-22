@@ -1,0 +1,84 @@
+/* src/Components/Header.css */
+* {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    font-style: ui-sans-serif;
+}
+
+.pp {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.inline-icon {
+    height: 1em;
+    vertical-align: middle;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 15px; /* Adjust the gap between buttons */
+    border-radius: 10px; /* Add border radius */
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 40px; /* Add space above the buttons */
+}
+
+.btn2 {
+    background-color: black;
+    color: white;
+    border: 2px solid white; /* Add border */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 10px; /* Add border radius */
+}
+
+.p3 {
+    text-align: center;
+    font-size: 13px;
+    color: dimgrey;
+    margin-top: 20px; /* Add space under the paragraph */
+}
+
+.btn11 {
+    background-color: black;
+    color: lightgrey;
+    border: 2px solid white; /* Add border */
+    padding: 15px 30px;
+    font-size: 20px; /* Increase font size */
+    cursor: pointer;
+    border-radius: 30px; /* Add border radius */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin: auto; /* Center the button horizontally */
+}
+
+.btn11 img {
+    height: 2em; /* Match the height of the text */
+    margin-right: 10px; /* Add spacing between image and text */
+}

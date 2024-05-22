@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import Header from './Components/Header/Header'
+import Mac from './Components/Mac/Mac'
+import Custom from './Components/Custom/Custom'
+import CheckoutForm from './Components/input/input'
+import { loadStripe } from '@stripe/stripe-js'
+import { Elements } from '@stripe/react-stripe-js'
+import Artwork from './Components/Artwork/Artwork'
+import Integration from './Components/Integration/Integration'
+import { Navigate, Route, Routes } from 'react-router-dom'
+import Dashboard from './dashboard'
+const stripePromise = loadStripe('pk_test_51PIv5ISHogaXr4t3gPnciYYuH6BIKmhd6w4mnGjrrVSnmgCLuYOxu1W9a8QUanUfKbeWYejHQ5boiCOKRY0asqgO00FOXGalAF');
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+      <Route path="/" element={<Navigate to="/dashboard" />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path='/checkout' element={<CheckoutForm/>} />
+      
+      </Routes>
+       
+    
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
